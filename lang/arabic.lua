@@ -20,9 +20,9 @@ function ar.lang()-- in-table function
     {
 		prices = {--Do Not Change This!!
 			private = {
-				one = 234,
-				two = 470,
-				three = 850,
+				one = 400,
+				two = 660,
+				three = 1130,
 				},
 			public = 100,
 			rdp = 1340,
