@@ -294,6 +294,14 @@ function en.lang()-- in-table function
 			text10 = 'Server Domain : ',
 			query = 'Getting Data..',
 			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
+                        day = " day ",
+                        days = " days ",
+                        hour = " hour ",
+                        hours = " hours ",
+                        minute = " minute ",
+                        minutes = " minutes ",
+                        second = " second ",
+                        seconds = " seconds ",
             keyboard = {
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
