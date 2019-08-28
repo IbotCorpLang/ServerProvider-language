@@ -387,7 +387,7 @@ function en.lang()-- in-table function
                     {text = "Gift code", callback_data = 'giftcode'},
 				},
 				{
-                    {text = "INVITE", callback_data = 'invite'},
+                    --{text = "INVITE", callback_data = 'invite'},
 	            {text = 'Surveys', callback_data = 'offers'},
                     },
 				{
@@ -406,7 +406,7 @@ function en.lang()-- in-table function
             keyboard3 = {
                 {
                     {text = "Gift code", callback_data = 'giftcode'},
-                    {text = "INVITE", callback_data = 'invite'},
+                    --{text = "INVITE", callback_data = 'invite'},
                     },
 		{
 		    {text = 'Surveys', callback_data = 'offers'},
