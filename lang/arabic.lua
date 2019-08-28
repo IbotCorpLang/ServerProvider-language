@@ -379,7 +379,7 @@ function ar.lang()-- in-table function
                     {text = "رمز الهدية", callback_data = 'giftcode'},
 				},
 				{
-                    {text = "دعوة", callback_data = 'invite'},
+                    --{text = "دعوة", callback_data = 'invite'},
 	            {text = 'عروضنا', callback_data = 'offers'},
                     },
 				{
@@ -398,7 +398,7 @@ function ar.lang()-- in-table function
             keyboard3 = {
                 {
                     {text = "رمز الهدية", callback_data = 'giftcode'},
-                    {text = "دعوة", callback_data = 'invite'},
+                  --  {text = "دعوة", callback_data = 'invite'},
                     },
 		{
 		    {text = 'عروضنا', callback_data = 'offers'},
