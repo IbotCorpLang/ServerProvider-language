@@ -572,7 +572,7 @@ function ar.lang()-- in-table function
 					{text = 'اعادة تعيين كلمة مرور الخادم', callback_data = 'servercmd resetroot #id'},
 					},
 				{
-					{text = 'هذا كان انا', callback_data = 'thiswasme'},
+					{text = 'هذا كان انا', callback_data = 'thiswasme #id'},
 					},
 				},
 			keyboard2 = {
