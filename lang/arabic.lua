@@ -567,6 +567,7 @@ function ar.lang()-- in-table function
 		warn = {
 			text = 'ROOT تم تغيير كلمة المرور!!\nاسم الخادم : $name\n------------\nرجاء تحقق اذا لم تكن انت من غير كلمة مرور الخادم.',
 			text2 = 'ارسل كلمة مرور جديد لكي يتم حفظها في قاعدة البيانات.',
+			text3 = 'سوف تقوم بتغيير كلمة المرور للخادم "#name" في قاعدة بياناتك\nيرجى التأكيد...',
 			keyboard = {
 				{
 					{text = 'اعادة تعيين كلمة مرور الخادم', callback_data = 'servercmd resetroot #id'},
@@ -579,6 +580,12 @@ function ar.lang()-- in-table function
 				{
 			        {text = 'الغاء', callback_data = 'cancel'}
 			        },
+				},
+			keyboard3 = {
+				{
+					{text = 'تأكيد', callback_data = 'confirm'},
+					{text = 'الغاء', callback_data = 'cancel'},
+					},
 				},
 			},
         }
