@@ -28,8 +28,7 @@ function fa.lang()-- in-table function
 			rdp = 1340,
 			},
         welcome = {--Welcome texts : leave any these words ({name})
-            text = '*به ربات ارائه دهنده سرور خوش آمدید* {name}!\n*این ربات ربات رسمی برای است* [IBotCompany](https://telegram.me/IBCorp)\n
-            برای کمک به شما در تهیه یک * سرور خوب * با قیمت مقرون به صرفه\nلطفا * وارد سیستم شوید * یا * بپیوندید *',
+            text = '*به ربات ارائه دهنده سرور خوش آمدید* {name}!\n*این ربات ربات رسمی برای است* [IBotCompany](https://telegram.me/IBCorp)\nبرای کمک به شما در تهیه یک * سرور خوب * با قیمت مقرون به صرفه\nلطفا * وارد سیستم شوید * یا * بپیوندید *',
 	    query = 'منوی اصلی!',
             keyboard = {
                 {
