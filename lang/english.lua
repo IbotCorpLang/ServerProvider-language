@@ -23,6 +23,7 @@ function en.lang()-- in-table function
 				one = 400,
 				two = 660,
 				three = 1130,
+				four = 2000,
 				},
 			public = 100,
 			rdp = 1340,
