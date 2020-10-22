@@ -389,7 +389,7 @@ function en.lang()-- in-table function
 				},
 				{
                     --{text = "INVITE", callback_data = 'invite'},
-		    {text = "Pay By Mobile", url = 'https://pay.fortumo.com/mobile_payments/eb72e8d14fd8a1976d21eb9905b11bdd?cuid=451780388'},
+		    --{text = "Pay By Mobile", url = 'https://pay.fortumo.com/mobile_payments/eb72e8d14fd8a1976d21eb9905b11bdd?cuid=451780388'},
 	            {text = 'Surveys', callback_data = 'offers'},
                     },
 				{
