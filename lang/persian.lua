@@ -295,6 +295,14 @@ function fa.lang()-- in-table function
 			text10 = t..'\n<b>دامنه سرور: </b>',
 			query = 'اکتساب داده ها.',
 			query2 = 'خطا: \n سرور $cmd نامعتبر است ... \n بازگشت به لیست سرور',
+			day = 'روز',
+			days = 'روزها',
+			hours = "ساعت",
+			hour = 'ساعت ها',
+			minutes = 'دقایق',
+			minute = 'دقیق',
+			seconds = 'ثانیه ها',
+			second = 'یک لحظه',
             keyboard = {
                 {
                     {text = 'بازگشت', callback_data = 'myservers'},
