@@ -300,7 +300,7 @@ function ar.lang()-- in-table function
 			hours = "ساعات",
 			hour = "ساعة",
 			minute = "دقيقة",
-			minutes = "دقائق"
+			minutes = "دقائق",
 			second = "ثانية",
 			seconds = "ثواني",
             keyboard = {
