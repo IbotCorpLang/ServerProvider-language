@@ -384,11 +384,11 @@ function en.lang()-- in-table function
 			text8 = 'Click on this link to earn credits.\n after you click this link, you will go to a website where a "Skip Ad" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
             keyboard = {
                 {
-					--{text = 'Watch Ads', callback_data = 'watchads'},
+					{text = 'Watch Ads', callback_data = 'watchads'},
                     {text = "Gift code", callback_data = 'giftcode'},
 				},
 				{
-                    --{text = "INVITE", callback_data = 'invite'},
+                    {text = "INVITE", callback_data = 'invite'},
 		    --{text = "Pay By Mobile", url = 'https://pay.fortumo.com/mobile_payments/eb72e8d14fd8a1976d21eb9905b11bdd?cuid=451780388'},
 	            {text = 'Surveys', callback_data = 'offers'},
                     },
