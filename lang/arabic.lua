@@ -384,11 +384,11 @@ function ar.lang()-- in-table function
 			text8 = 'انقر على هذا الرابط للحصول على نقاط.\n بعد أن تضغط على هذا الرابط ، سوف تذهب إلى موقع حيث عند الضغط على زر "تخطي الإعلان" يجب أن يبدأ بعد خمس ثوان ، بعد ذلك سوف يعاد توجيهك للبوت لتلقي نقاطك.',
             keyboard = {
                 {
-					--{text = 'مشاهدة الاعلانات', callback_data = 'watchads'},
+					{text = 'مشاهدة الاعلانات', callback_data = 'watchads'},
                     {text = "رمز الهدية", callback_data = 'giftcode'},
 				},
 				{
-                    --{text = "دعوة", callback_data = 'invite'},
+                    {text = "دعوة", callback_data = 'invite'},
 	            {text = 'عروضنا', callback_data = 'offers'},
                     },
 				{
