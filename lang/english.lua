@@ -381,17 +381,17 @@ function en.lang()-- in-table function
 			text5 = 'Loading..',
 			text6 = 'No Links Available Right Now\nPlease Try again Later',
 			text7 = 'Session Expired...\nPlease Try again later',
-			text8 = 'Click on this link to earn credits.\n after you click this link, you will go to a website where a "Skip Ad" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
+			text8 = '*Visit Site* :\nYou can earn credits by visiting affiliated sites\nHow? well, after you click the "Visit Site" button, you will go to a website where a "Skip Ad" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
+            text9 = "*Visit Site Section*\nEarned credits : `#earned`\nSites visited : `#visited`\nYour rank : `#rank`\nClick the button below to start earning !",
             keyboard = {
                 {
-					{text = 'Watch Ads', callback_data = 'watchads'},
+					{text = 'Visit Sites', callback_data = 'watchads'},
                     {text = "Gift code", callback_data = 'giftcode'},
 				},
 				{
                     {text = "INVITE", callback_data = 'invite'},
-		    --{text = "Pay By Mobile", url = 'https://pay.fortumo.com/mobile_payments/eb72e8d14fd8a1976d21eb9905b11bdd?cuid=451780388'},
-	            {text = 'Surveys', callback_data = 'offers'},
-                    },
+	                {text = 'Surveys', callback_data = 'offers'},
+                },
 				{
 					{text = 'Billing', callback_data = 'billing'}
 					},
@@ -408,11 +408,11 @@ function en.lang()-- in-table function
             keyboard3 = {
                 {
                     {text = "Gift code", callback_data = 'giftcode'},
-                    --{text = "INVITE", callback_data = 'invite'},
+                    {text = "INVITE", callback_data = 'invite'},
                     },
-		{
-		    {text = 'Surveys', callback_data = 'offers'},
-			},
+		        {
+		            {text = 'Surveys', callback_data = 'offers'},
+			    },
 				{
 					{text = 'Billing', callback_data = 'billing'}
 					},
@@ -435,7 +435,7 @@ function en.lang()-- in-table function
         billing = {
             text = '*Billing Status*\n*Username :* {username}\n*Credits :* {credit}\n*invite credits* : {invitecredit}\n*Servers :* {num}',
             text2 = '*You do not have enough invite credit*\nminimum value is 1',
-	    text3 = 'With *Withdraw* you can resell your credits and gain profit!\nall you need to do now is send the amount you want to withdraw : (Your credits : #credit)',
+	        text3 = 'With *Withdraw* you can resell your credits and gain profit!\nall you need to do now is send the amount you want to withdraw : (Your credits : #credit)',
             keyboard = {
                 {
                     {text = 'My servers', callback_data = 'myservers'},
