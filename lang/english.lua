@@ -407,20 +407,14 @@ function en.lang()-- in-table function
                 },
             keyboard3 = {
                 {
-                    {text = "Gift code", callback_data = 'giftcode'},
-                    {text = "INVITE", callback_data = 'invite'},
-                    },
-		        {
-		            {text = 'Surveys', callback_data = 'offers'},
-			    },
-				{
-					{text = 'Billing', callback_data = 'billing'}
-					},
+                    {text = "Visit Sites", callback_data = '#link'},
+                },
                 {
-                    {text = 'Main Menu', callback_data = 'main'},
-                    },
+                    {text = 'Go Back', callback_data = 'earn'},
+                    {text = 'Main Menu', callback_data = 'cancel'},
                 },
             },
+        },
         invite = { -- Invite texts, do not change these words ({num})
             text = 'Your *Special Link* has been generated\nUse this link to get more credits by inviting users to join *Our Services*\n\nYou will get *15 SP* and the invited user will get *30 SP* after a user joins and successfully register in our services.\n*LINK :* ',
             text2 = '*You Got SP credit for inviting users\nYou now have : *`{num} SP`',
