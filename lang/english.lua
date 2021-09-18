@@ -407,7 +407,7 @@ function en.lang()-- in-table function
                 },
             keyboard3 = {
                 {
-                    {text = "Visit Sites", callback_data = '#link'},
+                    {text = "Visit Sites", url = '#link'},
                 },
                 {
                     {text = 'Go Back', callback_data = 'earn'},
