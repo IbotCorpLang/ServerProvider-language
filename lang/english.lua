@@ -18,16 +18,16 @@ local t = '  '
 function en.lang()-- in-table function 
     local info = 
     {
-		prices = {--Do Not Change This!!
-			private = {
-				one = 400,
-				two = 660,
-				three = 1130,
-				four = 2000,
-				},
-			public = 100,
-			rdp = 1340,
+		plans = {--Do Not Change This!!
+			['private'] = {
+				['1'] = "Private Small",
+                ['2'] = "Private Medium",
+                ['3'] = "Private Big",
+                ['4'] = "Private Bigger",
 			},
+			['public'] = "Public",
+			['rdp'] = "Remote Desktop Protocol",
+		},
         welcome = {--Welcome texts : leave any these words ({name})
             text = '*Welcome to ServersBot* {name}!\n*This bot is the official bot for* [IBotCompany](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
 	        query = 'Main Menu!',
