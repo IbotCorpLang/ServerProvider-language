@@ -61,6 +61,9 @@ function en.lang()-- in-table function
 					},
 				},
 			},
+        pricing = {
+            text = '*Available Plans* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #pbg*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`',
+        },
         register = {
             text = "Welcome to [ServerBot's](telegram.me/serverproviderbot) \n-----*Terms Of Service*------\n@ServerProviderBot Provides VPS For Cheap Prices By watching ads or Buying the Coins.\nThe Bot And The Sponsering Company And The Developer Are Not Responsible For Password Loss or Server Hacks.\nYou May Share The Root Password on You personal expenses\n*More Detailed Terms Of Service* [Here](https://telegra.ph/Terms-Of-Service-02-22-2)\n\nThe Bot is Sponsered By @IBCorp [Website](www.ibotcorp.com)\nBy Pressing *Get Started* You accept the Terms Of Use Above.",
             keyboard = {
@@ -168,7 +171,7 @@ function en.lang()-- in-table function
             text9 = '*Server added*\n*Name :* {name}',
             text10 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
 			text12 = 'You Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *45 minutes*, You can check progress in /servers or press the *My Servers* button.',
-			text13 = 'Chose your *Server Size* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`',
+			text13 = 'Chose your *Server Plan* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #pbg*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`',
 			text14 = 'Server Creation Completed!',
 			query = 'You Entered #n',
 			query2 = 'You Deleted #n',
