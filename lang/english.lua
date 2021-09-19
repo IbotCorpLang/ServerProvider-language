@@ -27,6 +27,7 @@ function en.lang()-- in-table function
 			},
 			['public'] = "Public",
 			['rdp'] = "Remote Desktop Protocol",
+            ["err"] = "Not Specified",
 		},
         welcome = {--Welcome texts : leave any these words ({name})
             text = '*Welcome to ServersBot* {name}!\n*This bot is the official bot for* [IBotCompany](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
