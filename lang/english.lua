@@ -30,7 +30,7 @@ function en.lang()-- in-table function
 			},
         welcome = {--Welcome texts : leave any these words ({name})
             text = '*Welcome to ServersBot* {name}!\n*This bot is the official bot for* [IBotCompany](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
-	    query = 'Main Menu!',
+	        query = 'Main Menu!',
             keyboard = {
                 {
                     {text = 'Register', callback_data = 'register'},
@@ -38,13 +38,17 @@ function en.lang()-- in-table function
                     },
                 {
                     {text = 'About', callback_data = 'about'},
-                    },
+                    {text = 'Pricing', callback_data = 'pricing'},
                 },
+                {
+                    {text = 'News 📰', url = 'https://telegram.me/IBCorp'},
+                },
+            },
             keyboard2 = {
                 {
                     {text = 'About', callback_data = 'about'},
-                    },
                 },
+            },
         },
 		about = {
 			text = '[ServerProviderBot](t.me/serverproviderbot) Offers you *(VPS|RDP|Domains) for cheap prices*\nThe concept of this bot is that you collect credits by : \n*1- watching ads \n2- joining certain groups and channels for a peroid of time \n3- inviting users to the bot\n4- Buying credits for real money*\n*ServerProvider* counts server time by day and each plan has its own prices\n\n*This Bot Is Owned And Sponsored *[BY IBot Corporation](t.me/ibcorp) [Website](ibotcompany.tk)\n\nVersion : *#ver*',
