@@ -185,19 +185,22 @@ function en.lang()-- in-table function
                 {
                     {text = 'Cancel', callback_data = 'cancel_server'}
                     },
+            },
+	        keyboard2 = {
+		        {
+		            {text = 'Small', callback_data = 'plantype private small'}
+		        },
+		        {
+		            {text = 'Medium', callback_data = 'plantype private medium'},
+		            {text = 'Big', callback_data = 'plantype private big'},
+		        },
+                {
+                    {text = 'Bigger', callback_data = 'plantype private bigger'},
                 },
-	    keyboard2 = {
-		{
-		    {text = 'Small', callback_data = 'plantype private small'}
+		        {
+        			{text = 'Back', callback_data = 'returntoplantype'},
+			    },
 		    },
-		{
-		    {text = 'Medium', callback_data = 'plantype private medium'},
-		    {text = 'Big', callback_data = 'plantype private big'},
-		    },
-		{
-			{text = 'Back', callback_data = 'returntoplantype'},
-			},
-		},
             keyboard3 = {
                 {
                     {text = 'Cancel', callback_data = 'cancel_server'},
