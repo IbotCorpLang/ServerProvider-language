@@ -497,6 +497,22 @@ function en.lang()-- in-table function
 		},
 		account = {
 			text1 = 'Account Information\nFull name : #fullname\nUsername : #username\nEmail : #email\nPhone : #phone\nCredits : #credits\nServers : #servers',
+            keyboard = {
+				{
+					{text = 'Change username', callback_data = 'change username'},
+					{text = 'Change password', callback_data = 'change password'}
+				},
+                {
+                    {text = 'Change Account Name', callback_data = 'change accountname'},
+                },
+                {
+                    {text = 'My Servers', callback_data = 'myservers'},
+                    {text = 'Billing', callback_data = 'billing'}
+                },
+                {
+                    {text = 'Main Menu', callback_data = 'main'}
+                }
+			},
 		},
 		advert = {
 	        text = "*Welcome To AdvertManager!*\n\nRegister now as an Advert  and post your ads to [ServerProvider](t.me/serverproviderbot)'s registered users,\n*You can add links, Groups and channels.*\n`More Information And Terms-Of-Use Here` /moreinfo\n\nBy Clicking *Get Started* You Agree and Accept the Terms-Of-Use of [ServerProvider](t.me/serverproviderbot) Services.",
