@@ -427,7 +427,7 @@ function en.lang()-- in-table function
             },
         },
         help = {
-            referral = '*Referral Program*\nUse this service to get more credits by inviting users to join *#botusername*\nYou will get *#earnU SP* for each unique users if the invited user joins and successfully registers in our services, he gets *earnRegister SP* and you get "#earnRefer SP" for invited him.\n[INVITE USERS Now](#invitelink)',
+            referral = '*Referral Program*\nUse this service to get more credits by inviting users to join *#botusername*\nYou will get *#earnU SP* for each unique users if the invited user joins and successfully registers in our services, he gets *#earnRegister SP* and you get "#earnRefer SP" for invited him.\n[INVITE USERS Now](#invitelink)',
 
         },
         invite = { -- Invite texts, do not change these words ({num})
