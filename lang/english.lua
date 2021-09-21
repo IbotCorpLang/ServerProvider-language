@@ -432,7 +432,7 @@ function en.lang()-- in-table function
         },
         invite = { -- Invite texts, do not change these words ({num})
             --text = '*Referral Program*\nUse this link to get more credits by inviting users to join *ServerProviderBot*\n*Your current status :*\n*Referred users :* `#referred`\n*LINK :* #link\nYou will get *#earn SP* for each unique users and the invited user will get *200 SP* after a user joins and successfully register in our services.\n',
-            text = "You have `#n` referrals and earned `#s` SP\n\nTo refer users, use this link below\n*LINK :* #link\n\n[What is Referral system](#helplink)",
+            text = "You have `#n` referrals and earned `#s` SP\n\nTo refer users, use this link below\n#link\n\n[What is Referral system](#helplink)",
             text2 = '*You Got SP credit for inviting users\nYou now have : *`{num} SP`',
 			text3 = '*You Got SP credit for inviting users and successful registration.\nYou now have : *`{num} SP`',
 			text4 = "You registered via promo code\nHere's your gift ->",
