@@ -497,6 +497,13 @@ function en.lang()-- in-table function
 		},
 		account = {
 			text1 = 'Account Information\nFull name : #fullname\nUsername : #username\nEmail : #email\nPhone : #phone\nCredits : #credits\nServers : #servers',
+            text2 = 'Send me the new username for your account.',
+            text3 = 'Send me the new password for your account.',
+            text4 = 'Send me your new first name.',
+            text5 = 'Now send me your new last name.',
+            text6 = "You will change your account name from #old to #new\nAre you sure?",
+            text7 = "You will change your account username from #new\nAre you sure?",
+            text8 = "You will change your account password\nAre you sure?",
             keyboard = {
 				{
 					{text = 'Change username', callback_data = 'change username'},
@@ -513,6 +520,20 @@ function en.lang()-- in-table function
                     {text = 'Main Menu', callback_data = 'main'}
                 }
 			},
+            keyboard2 = {
+                {
+                    {text = 'Cancel', callback_data = 'cancel_changeaccount'}
+                },
+            },
+            keyboard3 = {
+                {
+                    {text = 'Yes', callback_data = 'confirmchange #type'},
+                    {text = 'No', callback_data = 'declinechange #type'}
+                },
+                {
+                    {text = 'Cancel', callback_data = 'cancel_changeaccount'}
+                }
+            }
 		},
 		advert = {
 	        text = "*Welcome To AdvertManager!*\n\nRegister now as an Advert  and post your ads to [ServerProvider](t.me/serverproviderbot)'s registered users,\n*You can add links, Groups and channels.*\n`More Information And Terms-Of-Use Here` /moreinfo\n\nBy Clicking *Get Started* You Agree and Accept the Terms-Of-Use of [ServerProvider](t.me/serverproviderbot) Services.",
