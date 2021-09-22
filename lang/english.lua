@@ -507,7 +507,7 @@ function en.lang()-- in-table function
             text9 = "Send me your password again please.",
             query = "Changes saved successfully.",
             error = "An error has occurred, Please try again",
-            error2 = "This password is too short, Please try again with a longer password.\n(Minimum 8 characters)"
+            error2 = "This password is too short, Please try again with a longer password.\n(Minimum 8 characters)",
             keyboard = {
 				{
 					{text = 'Change username', callback_data = 'change username'},
