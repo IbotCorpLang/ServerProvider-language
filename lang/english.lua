@@ -498,12 +498,16 @@ function en.lang()-- in-table function
 		account = {
 			text1 = 'Account Information\nFull name : #fullname\nUsername : #username\nEmail : #email\nPhone : #phone\nCredits : #credits\nServers : #servers',
             text2 = 'Send me the new username for your account.',
-            text3 = 'Send me the new password for your account.',
+            text3 = 'Send me the new password for your account.\n(Minimum 8 characters)',
             text4 = 'Send me your new first name.',
             text5 = 'Now send me your new last name.',
             text6 = "You will change your account name from #old to #new\nAre you sure?",
             text7 = "You will change your account username from #new\nAre you sure?",
             text8 = "You will change your account password\nAre you sure?",
+            text9 = "Send me your password again please.",
+            query = "Changes saved successfully.",
+            error = "An error has occurred, Please try again",
+            error2 = "This password is too short, Please try again with a longer password.\n(Minimum 8 characters)"
             keyboard = {
 				{
 					{text = 'Change username', callback_data = 'change username'},
