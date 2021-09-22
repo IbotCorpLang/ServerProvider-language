@@ -282,6 +282,7 @@ function en.lang()-- in-table function
 			},
 		resetroot = {
 			text = '*Reset Root Password :*\nThis will shutdown the server and performs a *Root Password Reset* action,\nYou can set your own Root password by sending a password now or click on *Generate*, that will generate a random strong password for your server and proceed to reset the password.',
+            text = "Reset root request has been scheduled for your server, Please wait",
 			query = 'Resetting Root Password...\nPlease allow more than 2 minutes for this action to end',
 			error = 'Server Not Found!',
 			keyboard = {
@@ -635,11 +636,11 @@ function en.lang()-- in-table function
 			keyboard = {
 				{
 					{text = 'Reset Root Password', callback_data = 'servercmd resetroot #id'},
-					},
+				},
 				{
 					{text = 'That Was Me', callback_data = 'thiswasme #id'},
-					},
 				},
+			},
 			keyboard2 = {
 				{
 			        {text = 'Cancel', callback_data = 'cancel'}
