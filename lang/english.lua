@@ -501,7 +501,7 @@ function en.lang()-- in-table function
             text3 = 'Send me the new password for your account.\n(Minimum 8 characters)',
             text4 = 'Send me your new first name.',
             text5 = 'Now send me your new last name.',
-            text6 = "You will change your account name from #old to #new\nAre you sure?",
+            text6 = "You will change your account name from \"#old\" to \"#new\"\nAre you sure?",
             text7 = "You will change your account username from #new\nAre you sure?",
             text8 = "You will change your account password\nAre you sure?",
             text9 = "Send me your password again please.",
