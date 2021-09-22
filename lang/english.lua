@@ -506,6 +506,7 @@ function en.lang()-- in-table function
             text8 = "You will change your account password\nAre you sure?",
             text9 = "Send me your password again please.",
             query = "Changes saved successfully.",
+            query2 = "Changes canceled",
             error = "An error has occurred, Please try again",
             error2 = "This password is too short, Please try again with a longer password.\n(Minimum 8 characters)",
             keyboard = {
@@ -532,7 +533,7 @@ function en.lang()-- in-table function
             keyboard3 = {
                 {
                     {text = 'Yes', callback_data = 'confirmchange #type'},
-                    {text = 'No', callback_data = 'declinechange #type'}
+                    {text = 'No', callback_data = 'cancel_changeaccount'}
                 },
                 {
                     {text = 'Cancel', callback_data = 'cancel_changeaccount'}
