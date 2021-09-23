@@ -309,6 +309,7 @@ function en.lang()-- in-table function
             text12 = "Uptime : #uptime\nCPU : #cpu\nMemory (MB) : #memory\nDisk : #disk",
             text13 = "All screens have been killed.",
             text14 = "No screens found",
+            text15 = "No users yer",
 			query = 'Getting Data..',
 			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
             query3 = "I couldnt access your server, Did you change the ssh keys ?",
