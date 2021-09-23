@@ -265,6 +265,7 @@ function en.lang()-- in-table function
 			text8 = 'Activate Account First!!...',
 			text9 = 'Server name must be [3-32] characters length..',
 			text10 = 'This name is currently unavaiable, Please try another name..',
+            text11 = "Session expired..\nPlease try again",
             },
         keyboard_rows = {
 	    	newserver = {text = 'Delete', callback_data = 'del'},
