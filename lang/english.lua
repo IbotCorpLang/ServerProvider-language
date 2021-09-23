@@ -318,6 +318,7 @@ function en.lang()-- in-table function
             minutes = " minutes ",
             second = " second ",
             seconds = " seconds ",
+            error = "Could not get server status.\nIf this error continues, please contact support @IBotSupport.",
             keyboard = {
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
