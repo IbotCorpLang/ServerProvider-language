@@ -306,6 +306,8 @@ function en.lang()-- in-table function
 			text9 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
 			text10 = 'Server Domain : ',
             text11 = "*Actions* 📡\nIn this section you can send commands directly to your server to save you time from going on and connecting to ssh etc..\nPlease choose an action bellow.",
+            text12 = "Uptime : #uptime\nCPU : #cpu\nMemory (MB) : #memory\nDisk : #disk",
+            text13 = "All screens have been killed.",
 			query = 'Getting Data..',
 			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
             query3 = "I couldnt access your server, Did you change the ssh keys ?",
