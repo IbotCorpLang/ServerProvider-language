@@ -468,6 +468,7 @@ function en.lang()-- in-table function
             keyboard = {
                 {
                     {text = 'Main Menu', callback_data = 'main'},
+                    {text = 'Go Back', callback_data = 'earn'}
                     },
                 },
             },
