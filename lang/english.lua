@@ -305,16 +305,19 @@ function en.lang()-- in-table function
 			text8 = 'Are you sure?',
 			text9 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
 			text10 = 'Server Domain : ',
+            text11 = "*Actions* 📡\nIn this section you can send commands directly to your server to save you time from going on and connecting to ssh etc..\nPlease choose an action bellow.",
 			query = 'Getting Data..',
 			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
-                        day = " day ",
-                        days = " days ",
-                        hour = " hour ",
-                        hours = " hours ",
-                        minute = " minute ",
-                        minutes = " minutes ",
-                        second = " second ",
-                        seconds = " seconds ",
+            query3 = "I couldnt access your server, Did you change the ssh keys ?",
+            query4 = "Connected to your server ✅",
+            day = " day ",
+            days = " days ",
+            hour = " hour ",
+            hours = " hours ",
+            minute = " minute ",
+            minutes = " minutes ",
+            second = " second ",
+            seconds = " seconds ",
             keyboard = {
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
@@ -355,9 +358,28 @@ function en.lang()-- in-table function
                 {
                     {text = 'Go Back', callback_data = 'myservers'},
                     {text = 'Main Menu', callback_data = 'main'},
-                    },
                 },
             },
+            keyboard4 = {
+                {
+                    {text = "Status", callback_data = "serveraction top #id"}
+                },
+                {
+                    {text = "Check screens", callback_data = "serveraction checkscrs #id"},
+                    {text = "Kill all screens", callback_data = "serveraction kllallsc #id"}
+                },
+                {
+                    {text = "List users", callback_data = "serveraction listusers #id"}
+                },
+                {
+                    {text = "Add user", callback_data = "serveraction adduser #id"},
+                    {text = "Del user", callback_data = "serveraction deluser #id"}
+                },
+                {
+                    {text = "Go Back", callback_data = "server #id"}
+                }
+            }
+        },
 		delete_server = { --Delete server texts, do not change these words (#name, )
 			text = '<b>Are You Sure You Want To Delete This Server?</b>\nYou are going to delete (<b>#name</b>)\nThis means all data on this server <b>Will Be Lost</b> and it will be removed from your servers\n\n<b>Note:</b>\nYou will not be refunded if you delete this server.',
 			text2 = '*Server Deleted.*',
