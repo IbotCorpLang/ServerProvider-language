@@ -169,7 +169,7 @@ function en.lang()-- in-table function
 			text2 = "Server name \\: #servername\nChoose your [Plan](#helplink) \\:\n",
             text3 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nChoose your server [Region](#helplink) \\:\n",
             text4 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nChoose your server [Features](#helplink) \\:\n",
-            text5 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nExtra fees : #extra SP\nWould you like to install some of our Github repositories?\\[BETA\\]",
+            text5 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nExtra fees \\: #extra SP\nWould you like to install some of our Github repositories?\\[BETA\\]",
             text6 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nRepository \\: #repo\nHow many *days* you want the server ?\n\\-\\-\\-\\-\\-\\-\\-\\-\nDays : #m    *Total Price \\:* #b",
 			text7 = 'Enter a day please!',
 			text8 = "You Do Not Have Enough Credits!, Please Add More Credits before buying",
