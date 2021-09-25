@@ -166,18 +166,21 @@ function en.lang()-- in-table function
             },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*New Server!*\nWhat are we going to call it?',
-			text2 = "Chose your *Plan* :\n▪️ Public VPS : means you will get a shared VPS server where your files will be available to all users of the same VPS, and you will not get Root access to the server.\n--------------\n▪️ Private VPS : means you will get a VPS server only for you with Full Root access.\n--------------\n▪️ Remote Desktop Protocol/RDP : means you will get an Ubuntu RDP with full Root access.",
-            text3 = "How many *days* you want the server ?\n#Note : 1 day = #n credit\n\n--------\nDays : #m    *Total Price :* #b\n--------",
-			text4 = 'Enter a day please!',
-			text5 = "You Do Not Have Enough Credits!, Please Add More Credits before buying",
-            text6 = "<b>Server name :</b> #servername\n<b>Time :</b> <code>#servertime days</code>\n<b>Expire date :</b> <code>#expiredate UTC</code>\n<b>Price :</b> <code>#price SP</code>\n\nIf the information is <b>True</b> press the <b>Create</b> button",
-			text7 = 'Creating Server #name...\n#n',
-            text8 = "*Numbers only!*",
-            text9 = '*Server added*\n*Name :* {name}',
-            text10 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
-			text12 = 'You Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *45 minutes*, You can check progress in /servers or press the *My Servers* button.',
-			text13 = 'Chose your *Server Plan* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #pbg*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`',
-			text14 = 'Server Creation Completed!',
+			text2 = "Server name \\: #servername\nChoose your [Plan](#helplink) \\:\n",
+            text3 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nChoose your server [Region](#helplink) \\:\n",
+            text4 = "Server name \\: #servername\nPlan type \\: #planttype  \\-  #priceperday SP\nServer region \\: #serverregion\nChoose your server [Features](#helplink) \\:\n",
+            text5 = "Server name \\: #servername\nPlan type \\: #planttype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nExtra fees : #extra SP\nWould you like to install some of our Github repositories?\\[BETA\\]",
+            text6 = "Server name \\: #servername\nPlan type \\: #planttype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nRepository \\: #repo\nHow many *days* you want the server ?\n\\-\\-\\-\\-\\-\\-\\-\\-\nDays : #m    *Total Price \\:* #b",
+			text7 = 'Enter a day please!',
+			text8 = "You Do Not Have Enough Credits!, Please Add More Credits before buying",
+            text9 = "*Server name \\:* #servername\nPlan type \\: #planttype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nRepository \\: #repo\n*Time \\:* `#servertime days`\n*Expire date \\:* `#expiredate UTC`\n*Price \\:* `#price SP`\n\nIf the information is *True* press the *Create* button",
+			text10 = 'Creating Server #name...\n#n',
+            text11 = "*Numbers only!*",
+            text12 = '*Server added*\n*Name :* {name}',
+            text13 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
+			text14 = 'Your Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *45 minutes*, You can check progress in /servers or press the *My Servers* button.',
+			text15 = 'Choose your *Server Plan* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #pbg*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`',
+			text16 = 'Server Creation Completed!',
 			query = 'You Entered #n',
 			query2 = 'You Deleted #n',
 			query3 = 'Days are empty.',
@@ -205,7 +208,7 @@ function en.lang()-- in-table function
             keyboard3 = {
                 {
                     {text = 'Cancel', callback_data = 'cancel_server'},
-                    {text = 'Send It', callback_data = 'sendserver'}
+                    {text = 'Create', callback_data = 'sendserver'}
                     },
                 },
             keyboard4 = {
@@ -250,6 +253,15 @@ function en.lang()-- in-table function
                     {text = 'Cancel', callback_data = 'cancel_server'},
 					},
 				},
+            keyboard7 = {
+                {
+                    {text = "RAW", callback_data = "serverfeature raw"},
+                    {text = "LAMP", callback_data = "serverfeature lamp"},
+                },
+                {
+                    {text = "Cancel", callback_data = "cancel_server"}
+                }
+            },
             },
         myservers = {-- My Servers texts, do not change these words ({serversnum})
             text = 'Your servers : {serversnum}',
@@ -280,6 +292,12 @@ function en.lang()-- in-table function
                 {text = 'Billing', callback_data = 'billing'},
                 {text = 'Main Menu', callback_data = 'main'},
                 },
+            skiprepo = {
+                {text = "Skip", callback_data = "repo no"}
+                },
+            cancel_newserver = {
+                {text = 'Cancel', callback_data = 'cancel_server'}
+                }
 			},
 		resetroot = {
 			text = '*Reset Root Password :*\nThis will shutdown the server and performs a *Root Password Reset* action,\nYou can set your own Root password by sending a password now or click on *Generate*, that will generate a random strong password for your server and proceed to reset the password.',
@@ -296,7 +314,7 @@ function en.lang()-- in-table function
 				}
 			},
         server_info = { --Server Info texts, do not change these words ( #servername, #paiddays, #timeleft, #serverip, #serverusername, #serverpassword, #kvm, #disk, #ram, #cpu, #currentbandwidth, #expiredate, #status)
-            text1 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'#domain\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n'..t..'<b>Console URL :</b> <a href="#kvm"> Click Here</a>\n'..t..'<b>Explorer :</b> <a href="#explink"> Click Here</a>\n'..t..'<b>PHPMyAdmin :</b> <a href="#phpmyadminlink"> Click Here</a>\n'..t..'<b>MySQL username :</b> #mysqluser\n'..t..'<b>MySQL password :</b> <a href="#mysqlpasswordlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
+            text1 = '*Subscription Information \\:*\n'..t..'*Name \\:* #servername\n'..t..'*Plan Type \\:* #plantype\n'..t..'*Creation Date \\:* #created\n'..t..'*Paid Days \\:* #paiddays\n'..t..'*Expiration Date :* #expiredate\n'..t..'*Time left :* #timeleft\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n*Access \\:*\n'..t..'*Server IP :* #serverip\n'..t..'#domain\n'..t..'*Server username \\:* #serverusername\n'..t..'*Server password \\:* [Click Here]($passlink)\n'..t..'*Console URL \\:* [Click Here](#kvm)\n'..t..'*Explorer \\:* [Click Here](#explink)\n'..t..'*PHPMyAdmin \\:* [Click Here](#phpmyadminlink)\n'..t..'*MySQL username \\:* #mysqluser\n'..t..'*MySQL password \\: [Click Here](#mysqlpasswordlink)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n*System Information \\:*\n'..t..'*Disk :* #disk\n'..t..'*Ram \\:* #ram\n'..t..'*CPU :* #cpu Core\\(s\\)\n'..t..'*Allowed Bandwidth \\:* #allowedbandwidth\n'..t..'*Location \\:* #location\n'..t..'*Operating System \\:* #os\n'..t..'*Status \\: *#status\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n',
             text2 = '<b>PLEASE NOTE :</b>\nif you do not pay your fees before 1 day of time remaining your server will be <b>Stopped Then Deleted after a day</b>',
 			text3 = '<b>Server Not Found</b>\nServer Removed From Your list. /main',
 			text4 = 'Server must be offline first.',
@@ -304,13 +322,14 @@ function en.lang()-- in-table function
 			text6 = 'Restarting server...',
 			text7 = 'Stopping server...',
 			text8 = 'Are you sure?',
-			text9 = '<b>Subscription Information :</b>\n'..t..'<b>Name :</b> #servername\n'..t..'<b>Plan Type :</b> #plantype\n'..t..'<b>Creation Date :</b> #created\n'..t..'<b>Paid Days :</b> #paiddays\n'..t..'<b>Expiration Date :</b> #expiredate\n'..t..'<b>Time left :</b> #timeleft\n----------------\n<b>Access :</b>\n'..t..'<b>Server IP :</b> #serverip\n'..t..'<b>Server username :</b> #serverusername\n'..t..'<b>Server password :</b> <a href="$passlink">Click Here</a>\n----------------\n<b>System Information :</b>\n'..t..'<b>Disk :</b> #disk\n'..t..'<b>Ram :</b> #ram\n'..t..'<b>CPU :</b> #cpu Core(s)\n'..t..'<b>Allowed Bandwidth :</b> #allowedbandwidth\n'..t..'<b>Location :</b> #location\n'..t..'<b>Operating System</b> : #os\n'..t..'<b>Status : </b>#status\n----------------\n',
+			text9 = '*Subscription Information \\:*\n'..t..'*Name \\:* #servername\n'..t..'*Plan Type \\:* #plantype\n'..t..'*Creation Date \\:* #created\n'..t..'*Paid Days \\:* #paiddays\n'..t..'*Expiration Date :* #expiredate\n'..t..'*Time left :* #timeleft\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n*Access \\:*\n'..t..'*Server IP :* #serverip\n'..t..'*Server username \\:* #serverusername\n'..t..'*Server password \\:* [Click Here]($passlink)\n'..t..'*Console URL \\:* [Click Here](#kvm)\n'..t..'*Explorer \\:* [Click Here](#explink)\n'..t..'*PHPMyAdmin \\:* [Click Here](#phpmyadminlink)\n'..t..'*MySQL username \\:* #mysqluser\n'..t..'*MySQL password \\: [Click Here](#mysqlpasswordlink)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n*System Information \\:*\n'..t..'*Disk :* #disk\n'..t..'*Ram \\:* #ram\n'..t..'*CPU :* #cpu Core\\(s\\)\n'..t..'*Allowed Bandwidth \\:* #allowedbandwidth\n'..t..'*Location \\:* #location\n'..t..'*Operating System \\:* #os\n'..t..'*Status \\: *#status\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n',
 			text10 = 'Server Domain : ',
             text11 = "*Actions* 📡\nIn this section you can send commands directly to your server to save you time from going on and connecting to ssh etc..\nPlease choose an action bellow.",
             text12 = "Uptime : #uptime\nCPU : #cpu\nMemory (MB) : #memory\nDisk : #disk",
             text13 = "All screens have been killed.",
             text14 = "No screens found..",
             text15 = "No users yet..",
+            text16 = '*Subscription Information \\:*\n'..t..'*Name \\:* #servername\n'..t..'*Plan Type \\:* #plantype\n'..t..'*Creation Date \\:* #created\n'..t..'*Paid Days \\:* #paiddays\n'..t..'*Expiration Date :* #expiredate\n'..t..'*Time left :* #timeleft\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n*Access \\:*\n'..t..'*Server IP :* #serverip\n'..t..'*Server username \\:* #serverusername\n'..t..'*Server password \\:* [Click Here]($passlink)\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n*System Information \\:*\n'..t..'*Disk :* #disk\n'..t..'*Ram \\:* #ram\n'..t..'*CPU :* #cpu Core\\(s\\)\n'..t..'*Allowed Bandwidth \\:* #allowedbandwidth\n'..t..'*Location \\:* #location\n'..t..'*Operating System \\:* #os\n'..t..'*Status \\: *#status\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n',
 			query = 'Getting Data..',
 			query2 = 'ERROR :\nFaild to $cmd server...\nReturning back to servers list',
             query3 = "I couldnt access your server, Did you change the ssh keys ?",
@@ -457,6 +476,7 @@ function en.lang()-- in-table function
         },
         help = {
             referral = '*Referral Program*\nUse this service to get more credits by inviting users to join *#botusername*\nYou will get *#earnU SP* for each unique users if the invited user joins and successfully registers in our services, he gets *#earnRegister SP* and you get "#earnRefer SP" for invited him.\n[INVITE USERS Now](#invitelink)',
+            servertype = "▪️ Public VPS : means you will get a shared VPS server where your files will be available to all users of the same VPS, and you will not get Root access to the server.\n--------------\n▪️ Private VPS : means you will get a VPS server only for you with Full Root access.\n--------------\n▪️ Remote Desktop Protocol/RDP : means you will get an Ubuntu RDP with full Root access.\n/main",
 
         },
         invite = { -- Invite texts, do not change these words ({num})
@@ -580,7 +600,7 @@ function en.lang()-- in-table function
 	        text6 = '*Are You Sure You Want To Delete This Ad??*',
 	        text7 = '*Advertisment Deleted*',
 	        text8 = 'New Ad!\nWhat are Going to call it ? ',
-	        text9 = 'Name Set!\nNow Chose what are you advertising?\n\n\t\tPrice/Credits : 0/#credit',
+	        text9 = 'Name Set!\nNow Choose what are you advertising?\n\n\t\tPrice/Credits : 0/#credit',
 		text10 = "How much time the user needs to get points after joining your $chat\nIf the user joing your group for certain time he will get his reward",
 	        text11 = 'How many times do you want the ad to appear? (times)\n1 Time = #n\n\n\t\tPrice/Credits : #price/#credit',
 	        text12 = "Send the link now (it can be any text)\nAdmins will review it to determine it's Valid or Not\n\n\t\tPrice/Credits : #price/#credit",
