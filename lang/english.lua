@@ -166,11 +166,11 @@ function en.lang()-- in-table function
             },
         newserver = {-- New server texts, do not change these words (#n, #b, #m, #servername, #servertime, #expiredate, #price, #name, {name}, )
             text1 = '*New Server!*\nWhat are we going to call it?',
-			text2 = "Server name \\: #servername\nChoose your [Plan](#helplink) \\:\n",
+			text2 = "Server name \\: #servername\nChoose your [Server Type](#helplink) \\:\n",
             text3 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nChoose your server [Region](#helplink) \\:\n",
             text4 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nChoose your server [Features](#helplink) \\:\n",
-            text5 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nExtra fees \\: #extra SP\nWould you like to install some of our Github repositories?\\[BETA\\]",
-            text6 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nExtra fees \\: #extra SP\nRepository \\: #repo\nHow many *days* you want the server ?\n\\-\\-\\-\\-\\-\\-\\-\\-\nDays : #m    *Total Price \\:* #b\n\\-              *Your Credits :* #credits",
+            text5 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nExtra fees \\: `#extra SP`\nWould you like to install some of our Github repositories?\\[BETA\\]",
+            text6 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nExtra fees \\: `#extra SP`\nRepository \\: #repo\nHow many *days* you want the server ?\n\\-\\-\\-\\-\\-\\-\\-\\-\nDays : #m    *Total Price \\:* `#b SP`\n\\-              *Your Credits :* `#credits SP`",
 			text7 = 'Enter a day please!',
 			text8 = "You Do Not Have Enough Credits!, Please Add More Credits before buying",
             text9 = "*Server name \\:* #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nRepository \\: #repo\n*Time \\:* `#servertime days`\n*Expire date \\:* `#expiredate UTC`\n*Price \\:* `#price SP`\n*Your Credits :* `#credits SP`\n\nIf the information is *True* press the *Create* button",
@@ -179,7 +179,7 @@ function en.lang()-- in-table function
             text12 = '*Server added*\n*Name :* {name}',
             text13 = 'Your server {name} has been removed\nyou can rent another one from /myservers',
 			text14 = 'Your Server #name was Added Successfully.\nHostName : #name\n\nExpire Date : #expiredate\n\nServer Will Be Ready in *45 minutes*, You can check progress in /servers or press the *My Servers* button.',
-			text15 = 'Choose your *Server Plan* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #pbg*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`',
+			text15 = 'Choose your [Server Type](#helplink) :\n',
 			text16 = 'Server Creation Completed!',
 			query = 'You Entered #n',
 			query2 = 'You Deleted #n',
@@ -479,6 +479,7 @@ function en.lang()-- in-table function
             servertype = "▪️ Public VPS : means you will get a shared VPS server where your files will be available to all users of the same VPS, and you will not get Root access to the server.\n--------------\n▪️ Private VPS : means you will get a VPS server only for you with Full Root access.\n--------------\n▪️ Remote Desktop Protocol/RDP : means you will get an Ubuntu RDP with full Root access.\n/main",
             region = "*Server Region*\nChoosing Server region is really important to get the best performance that suits your needs\n#botusername provides you with a lot of premium regions with 100% uptime and the lowest latency available.",
             features = "*Server Features*\nPurchasing a server from #botusername gives you an important advantage of getting neat features along with the best performance in the same server\n*For example:*\nLAMP : With this package you will get Apache, MySql, PHP and PHPMyadmin packages installed automatically in your server.\nAlong with *KodExplorer* and an *Online Bash Terminal* with a *free domain* and an *SSL certificate*.\nAlso, provides your server with *RPP* \\(Root Password Protection\\) using our services.\nIt's not a bad deal at all.",
+            plansize = "▪️ *Small* \n*Price :* *#small*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#medium*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #big*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #bigger*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`",
             query = "Closed ✅",
             keyboard = {
                 {
