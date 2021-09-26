@@ -1,5 +1,5 @@
------english.lua--------
-------this file contains english texts for the t.me/serverproviderbot Bot------
+-----arabic.lua--------
+------this file contains arabic texts for the t.me/serverproviderbot Bot------
 ------Made By @IBCorp--------
 
 -- _____ ____        _    _____                 
@@ -96,6 +96,7 @@ function ar.lang()-- in-table function
 			error2 = '*رمز غير صحيح*.\nيرجى المحاولة من جديد',
 			error3 = 'حصل خطأ,\nهذا الريد غير صالح, رجاءا حاول مجددا مع بريد الكتروني صالح',
 			error4 = 'انتهت مدة الجلسة.\nيرجى المحاولة من جديد.',
+            error5 = "هذا الاسم موجود بالفعل في بياناتنا, يرجى المحاولة مع اسم اخر",
 			query = 'تم ارسال رمز التحقق...',
 			query2 = 'حصل خطأ\nيرجى المحاولة فيما بعد...',
 			query3 = "عليك الانتظار 10 دقائق قبل طلب رمز تحقق جديد\n(اذا كنت تستخدم جيميل, قد يستغرف الرمز 5-10 دقائق للوصول..)",
