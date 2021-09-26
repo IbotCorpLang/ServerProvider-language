@@ -30,7 +30,7 @@ function en.lang()-- in-table function
             ["err"] = "Not Specified",
 		},
         welcome = {--Welcome texts : leave any these words ({name})
-            text = '*Welcome to ServersBot* {name}!\n*This bot is the official bot for* [IBotCompany](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
+			text = '*Welcome to ServersProviderBot* {name}!\n*This bot is the official bot for* [IBotCorp](https://telegram.me/IBCorp)\nTo help you get a *Good VPS* for cheap prices\nPlease *Register* or *Login*',
 	        query = 'Main Menu!',
             keyboard = {
                 {
@@ -52,13 +52,10 @@ function en.lang()-- in-table function
             },
         },
 		about = {
-			text = '[ServerProviderBot](t.me/serverproviderbot) Offers you *(VPS|RDP|Domains) for cheap prices*\nThe concept of this bot is that you collect credits by : \n*1- watching ads \n2- joining certain groups and channels for a peroid of time \n3- inviting users to the bot\n4- Buying credits for real money*\n*ServerProvider* counts server time by day and each plan has its own prices\n\n*This Bot Is Owned And Sponsored *[BY IBot Corporation](t.me/ibcorp) [Website](ibotcompany.tk)\n\nVersion : *#ver*',
+			text = '[ServerProviderBot](t.me/serverproviderbot) Offers you *(VPS|RDP|Domains) for cheap prices*\nThe concept of this bot is that you collect credits by : \n*1- watching ads \n2- joining certain groups and channels for a peroid of time \n3- inviting users to the bot\n4- Buying credits for real money*\n*ServerProvider* counts server time by day and each plan has its own prices\n\n*This Bot Is Owned And Sponsored *[BY IBot Corporation](t.me/ibcorp) [Website](https://ibotcorp.com)\n\nVersion : *#ver*',
 			keyboard = {
 				{
 					{text = 'Website', url = 'www.ibotcorp.com'},
-					{text = 'Donate', url = 'www.patreon.com/ServerProvider'},
-					},
-				{
 					{text = 'Official Channel', url = 't.me/IBCorp'}
 					},
 				{
@@ -67,13 +64,16 @@ function en.lang()-- in-table function
 				},
 			},
         pricing = {
-            text = '*Available Plans* :\n▪️ *Small* \n*Price :* *#ps*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#pm*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #pb*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #pbg*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`',
+            text = '*Available Plans* :\n▪️ *Small* \n*Price :* *#small*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#medium*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #big*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #bigger*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`',
         },
         register = {
-            text = "Welcome to [ServerBot's](telegram.me/serverproviderbot) \n-----*Terms Of Service*------\n@ServerProviderBot Provides VPS For Cheap Prices By watching ads or Buying the Coins.\nThe Bot And The Sponsering Company And The Developer Are Not Responsible For Password Loss or Server Hacks.\nYou May Share The Root Password on You personal expenses\n*More Detailed Terms Of Service* [Here](https://telegra.ph/Terms-Of-Service-02-22-2)\n\nThe Bot is Sponsered By @IBCorp [Website](www.ibotcorp.com)\nBy Pressing *Get Started* You accept the Terms Of Use Above.",
+            text = "Welcome to [ServerProvider's](telegram.me/serverproviderbot) \nTo continue using ServerProvider you need to agree to the terms of service.",
             keyboard = {
+				{
+					{text = "Terms of Service", url = "#url"}
+				},
                 {
-                    {text = 'Get Started', callback_data = 'getstarted'},
+                    {text = 'I agree', callback_data = 'getstarted'},
                     {text = 'Cancel', callback_data = 'cancel'},
                     },
                 },
@@ -120,7 +120,7 @@ function en.lang()-- in-table function
 				},
             },
         login = {-- Log in texts, do not change these words ($username, {credits})
-            text1 = 'Please enter your *Given Username*',
+            text1 = 'Please enter your *username*',
             text2 = 'Welcome $username !\nPlease enter your *Password*',
             text3 = '*You Are Logged in now!*',
             text4 = "*Error!*:\nWrong password!\nPlease check your information and try again later",
@@ -301,7 +301,7 @@ function en.lang()-- in-table function
 			},
 		resetroot = {
 			text = '*Reset Root Password :*\nThis will shutdown the server and performs a *Root Password Reset* action,\nYou can set your own Root password by sending a password now or click on *Generate*, that will generate a random strong password for your server and proceed to reset the password.',
-            text = "Reset root request has been scheduled for your server, Please wait",
+            text2 = "Reset root request has been scheduled for your server, Please wait",
 			query = 'Resetting Root Password...\nPlease allow more than 2 minutes for this action to end',
 			error = 'Server Not Found!',
 			keyboard = {
@@ -513,12 +513,9 @@ function en.lang()-- in-table function
                     {text = 'Renew Subscriptions', callback_data = 'postpone'},
                     {text = 'Get Invite credit', callback_data = 'getinvitecredit'},
                     },
-		{
-		    {text = 'Withdraw', callback_data = 'withdraw'},
-		    },
 				{
-					{text = "Donate", url = 'https://patreon.com/ServerProvider'},
-                    },
+		    		{text = 'Withdraw', callback_data = 'withdraw'},
+		    		},
 				{
                     {text = "Main Menu", callback_data = 'main'},
 					},
