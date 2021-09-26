@@ -477,7 +477,13 @@ function en.lang()-- in-table function
         help = {
             referral = '*Referral Program*\nUse this service to get more credits by inviting users to join *#botusername*\nYou will get *#earnU SP* for each unique users if the invited user joins and successfully registers in our services, he gets *#earnRegister SP* and you get "#earnRefer SP" for invited him.\n[INVITE USERS Now](#invitelink)',
             servertype = "▪️ Public VPS : means you will get a shared VPS server where your files will be available to all users of the same VPS, and you will not get Root access to the server.\n--------------\n▪️ Private VPS : means you will get a VPS server only for you with Full Root access.\n--------------\n▪️ Remote Desktop Protocol/RDP : means you will get an Ubuntu RDP with full Root access.\n/main",
-
+            region = "*Server Region*\nChoosing Server region is really important to get the best performance that suits your needs\n#botusername provides you with a lot of premium regions with 100% uptime and the lowest latency available.",
+            features = "*Server Features*\nPurchasing a server from #botusername gives you an important advantage of getting neat features along with the best performance in the same server\n*For example:*\nLAMP : With this package you will get Apache, MySql, PHP and PHPMyadmin packages installed automatically in your server.\nAlong with *KodExplorer* and an *Online Bash Terminal* with a *free domain* and an *SSL certificate*.\nIt's not a bad deal at all.",
+            keyboard = {
+                {
+                    {text = "Close", callback_data = "close"}
+                }
+            },
         },
         invite = { -- Invite texts, do not change these words ({num})
             --text = '*Referral Program*\nUse this link to get more credits by inviting users to join *ServerProviderBot*\n*Your current status :*\n*Referred users :* `#referred`\n*LINK :* #link\nYou will get *#earn SP* for each unique users and the invited user will get *200 SP* after a user joins and successfully register in our services.\n',
