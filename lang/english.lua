@@ -173,7 +173,7 @@ function en.lang()-- in-table function
             text6 = "Server name \\: #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nExtra fees \\: #extra SP\nRepository \\: #repo\nHow many *days* you want the server ?\n\\-\\-\\-\\-\\-\\-\\-\\-\nDays : #m    *Total Price \\:* #b\n\\-                      *Your Credits :* #credits",
 			text7 = 'Enter a day please!',
 			text8 = "You Do Not Have Enough Credits!, Please Add More Credits before buying",
-            text9 = "*Server name \\:* #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nRepository \\: #repo\n*Time \\:* `#servertime days`\n*Expire date \\:* `#expiredate UTC`\n*Price \\:* `#price SP`\n\nIf the information is *True* press the *Create* button",
+            text9 = "*Server name \\:* #servername\nPlan type \\: #plantype  \\-  #priceperday SP\nServer region \\: #serverregion\nFeatures \\: #features\nRepository \\: #repo\n*Time \\:* `#servertime days`\n*Expire date \\:* `#expiredate UTC`\n*Price \\:* `#price SP`\n*Your Credits :* `#credits SP`\n\nIf the information is *True* press the *Create* button",
 			text10 = 'Creating Server #name...\n#n',
             text11 = "*Numbers only!*",
             text12 = '*Server added*\n*Name :* {name}',
