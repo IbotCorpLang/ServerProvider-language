@@ -442,7 +442,7 @@ function en.lang()-- in-table function
 			text6 = 'No Links Available Right Now\nPlease Try again Later',
 			text7 = 'Session Expired...\nPlease Try again later',
 			text8 = '*Visit Site* :\nYou can earn credits by visiting affiliated sites\nHow? well, after you click the "Visit Site" button, you will go to a website where a "Skip Ad" Button should apear after five seconds, after that you will be redirected to me to receive your reward.',
-            text9 = "*Visit Site Section*\nEarned credits : `#earned`\nSites visited : `#visited`\nYour rank : `#rank`\nClick the button below to start earning !",
+            text9 = "*Visit Site Section*\nEarned credits : `#earned`\nSites visited : `#visited`\nYour rank : `#rank`\nClick the button below to start earning !\n[How to visit Sites](#helplink)",
             keyboard = {
                 {
 					{text = 'Visit Sites', callback_data = 'watchads'},
