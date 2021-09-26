@@ -13,9 +13,9 @@
 --
 
 --Start english.lua
-local en = {}
+local ar = {}
 local t = '  '
-function en.lang()-- in-table function 
+function ar.lang()-- in-table function 
     local info = 
     {
 		plans = {--Do Not Change This!!
@@ -442,7 +442,7 @@ function en.lang()-- in-table function
 			text6 = 'لا توجد اعلانات في الوقت الحالي\nيرجى المحاولة فيما بعد',
 			text7 = 'انتهت مدة الجلسة...\nيرجى المحاولة فيما بعد',
             text8 = '*زيارة صفحات اعلانات* :\nيمكنك ربح نقاط SP من خلال زيارة صفحات تابعة لنا و مشاهدة الاعلانات\nكيف ذلك? حسنا, بعد ان تضغط على زر *زيارة صفحات* سنقوم بتحويلك الى صفحاتنا التابعه على الانترنت, بعد 5 ثواني سيظهر لك زر تخطي Skip لكي تتخطى الاعلان, بعد ضلك سيتم تحويلك الي من جديد لكي تحصل على جائزتك.',
-            text9 = "*قسم زيارة الصفحات*\nالرصيد المجموع : `#earned`\nالمواقع التي تمت زيارتها : `#visited`\nرتبتك في البوت : `#rank`\nاضغط على الزر اسف الرسالة لبدء الربح!",
+            text9 = "*قسم زيارة الصفحات*\nالرصيد المجموع : `#earned`\nالمواقع التي تمت زيارتها : `#visited`\nرتبتك في البوت : `#rank`\nاضغط على الزر اسف الرسالة لبدء الربح!\n[كيف ازو الصفحات](#helplink)",
             keyboard = {
                 {
 					{text = 'زيارة صفحات', callback_data = 'watchads'},
@@ -711,4 +711,4 @@ function en.lang()-- in-table function
         }
     return info
 end
-return en
+return ar
