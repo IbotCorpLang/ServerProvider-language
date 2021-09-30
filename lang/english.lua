@@ -67,7 +67,7 @@ function en.lang()-- in-table function
             text = '*Available Plans* :\n▪️ *Small* \n*Price :* *#small*\n*Features :*\n\t`1 GB RAM`\n\t`1 CORE CPU`\n\t`25 GB DISK`\n\t`1 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Medium *\n*Price :* *#medium*\n*Features :*\n\t`2 GB RAM`\n\t`1 CORE CPU`\n\t`50 GB DISK`\n\t`2 TB BANDWIDTH`\n➖➖➖➖➖\n▪️ *Big :*\n*Price : #big*\n*Features :*\n\t`4 GB RAM`\n\t`2 CORES CPU`\n\t`75 GB DISK`\n\t`3 TB BANDWIDTH`\n▪️ *Bigger :*\n*Price : #bigger*\n*Features :*\n\t`8 GB RAM`\n\t`4 CORES CPU`\n\t`100 GB DISK`\n\t`4 TB BANDWIDTH`',
         },
         register = {
-            text = "Welcome to [ServerProvider's](telegram.me/serverproviderbot) \nTo continue using ServerProvider you need to agree to the terms of service.",
+            text = "Welcome to [ServerProvider's](telegram.me/serverproviderbot) \nTo continue using ServerProvider you need to agree to the [terms of service](#link).",
             keyboard = {
 				{
 					{text = "Terms of Service", url = "#url"}
