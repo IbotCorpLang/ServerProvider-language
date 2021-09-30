@@ -68,6 +68,7 @@ function en.lang()-- in-table function
         },
         register = {
             text = "Welcome to [ServerProvider's](telegram.me/serverproviderbot) \nTo continue using ServerProvider you need to agree to the [terms of service](#link).",
+	    text2 = "Welcome to [ServerProvider's](telegram.me/serverproviderbot) \nWe just have to make sure that you're not a robot, Can you visit the site below please",
             keyboard = {
 				{
 					{text = "Terms of Service", url = "#url"}
