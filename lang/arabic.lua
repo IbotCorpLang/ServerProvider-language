@@ -202,7 +202,7 @@ function ar.lang()-- in-table function
 		            {text = 'الخطة الذهبية', callback_data = 'plantype private 3'},
 		        },
                 {
-                    {text = 'الخطة الماسية', callback_data = 'plantype private '},
+                    {text = 'الخطة الماسية', callback_data = 'plantype private 4'},
                 },
 		        {
         			{text = 'رجوع', callback_data = 'returntoplantype'},
