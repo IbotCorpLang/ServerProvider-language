@@ -202,7 +202,7 @@ function en.lang()-- in-table function
 		            {text = 'Big', callback_data = 'plantype private 3'},
 		        },
                 {
-                    {text = 'Bigger', callback_data = 'plantype private '},
+                    {text = 'Bigger', callback_data = 'plantype private 4'},
                 },
 		        {
         			{text = 'Back', callback_data = 'returntoplantype'},
